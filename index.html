@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Import Tailwind Css  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="nav fixed left-0 top-0 h-screen bg-gray-900 text-gray-200 w-72">
+        <div class="px-10 py-10 mt-28">
+            <a href="/" class="text-2xl my-16 font-semibold flex justify-center w-40 rounded-full py-3 px-8 hover:bg-blue-700  transition duration-300 ease-in-out block nav__link" data-link>About</a>
+            <a href="/education" class="text-2xl my-16 font-semibold block flex justify-center w-40 rounded-full py-3 px-8 hover:bg-blue-700  transition duration-300 ease-in-out  nav__link" data-link>Education</a>
+            <a href="/skills" class="text-2xl my-16 font-semibold block flex justify-center w-40 rounded-full py-3 px-8 hover:bg-blue-700  transition duration-300 ease-in-out nav__link" data-link>Skills</a>
+            <a href="/project" class="text-2xl my-16 font-semibold block flex justify-center w-40 rounded-full py-3 px-8 hover:bg-blue-700  transition duration-300 ease-in-out nav__link" data-link>Project</a>
+            <a href="/interest" class="text-2xl my-16 font-semibold block flex justify-center w-40 rounded-full py-3 px-8 hover:bg-blue-700  transition duration-300 ease-in-out nav__link" data-link>Interest</a>
+        </div>        
+    </nav>
+    <div id="app" class="relative ml-80"></div>
+    <script type="module" src="static/js/index.js"></script>
+</body>
+</html>
